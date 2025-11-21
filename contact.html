@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Contact Form</title>
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+ <!-- header start -->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/cakelogo.jpg" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
+                Cake shopyy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active bg-dark" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">service</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                           more variety
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Photo Gallery latest cake </a></li>
+                            <!-- Gallery cake start -->
+                    
+                            <li><a class="dropdown-item" href="#">Video Gallery</a></li>
+                             
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- header end -->
+
+<body>
+   <main>
+      <section>
+         <div class="container py-4">
+            <div class="row justify-content-center">
+               <div class="col-md-6">
+                  <form class="border border-warning p-4 rounded">
+                     <h1 class="mb-4">Contact Form</h1>
+
+                     <div class="row g-3">
+                        <!-- Name -->
+                        <div class="col-md-6">
+                           <label class="form-label">Name</label>
+                           <input type="text" class="form-control" placeholder="Enter Name" />
+                        </div>
+
+                        <!-- Email -->
+                        <div class="col-md-6">
+                           <label class="form-label">Email</label>
+                           <input type="email" class="form-control" placeholder="Enter Email" />
+                        </div>
+
+                        <!-- Mobile -->
+                        <div class="col-md-6">
+                           <label class="form-label">Mobile No</label>
+                           <input type="number" class="form-control" placeholder="Enter Mobile No" />
+                        </div>
+
+                        <!-- Landline -->
+                        <div class="col-md-6">
+                           <label class="form-label">Landline</label>
+                           <input type="number" class="form-control" placeholder="Enter Landline" />
+                        </div>
+
+                        <!-- Zipcode -->
+                        <div class="col-md-3">
+                           <label class="form-label">Zipcode</label>
+                           <input type="number" class="form-control" placeholder="Enter Zipcode" />
+                        </div>
+
+                        <!-- Country -->
+                        <div class="col-md-4">
+                           <label class="form-label">Country</label>
+                           <select class="form-select">
+                              <option selected>Select Country</option>
+                              <option>India</option>
+                              <option>USA</option>
+                              <option>UK</option>
+                           </select>
+                        </div>
+
+                        <!-- State -->
+                        <div class="col-md-4">
+                           <label class="form-label">State</label>
+                           <select class="form-select">
+                              <option selected>Select State</option>
+                              <option>Maharashtra</option>
+                              <option>Gujarat</option>
+                              <option>Karnataka</option>
+                           </select>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-12 text-center mt-3">
+                           <button class="btn btn-warning px-4">Submit</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <div class="col-md-6">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d179823.29949813802!2d73.84911213851441!3d18.580758978393906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1763719152473!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+
+   <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
